@@ -149,6 +149,6 @@ function draw(){
 	point(width/2,height-10);
 }
 function keyPressed(){
-	if(key == 'r' && !g)
+	if((key == 'r' || key == 'R') && !g)
 		reset()
 }
